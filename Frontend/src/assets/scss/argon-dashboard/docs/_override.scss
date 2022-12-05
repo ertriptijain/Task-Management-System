@@ -1,0 +1,27 @@
+body {
+    background-color: #e4e4e4;
+}
+#sidenav-main {
+    background: #495966;
+}
+.navbar-vertical .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #afafaf;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+.bg-secondary {
+    background-color: #e2e2e2 !important;
+}
+.error-msg p{
+    font-size: 12px;
+    margin: 0;
+}
+@media (min-width: 768px){
+    .navbar-vertical.navbar-expand-md .navbar-brand-img {
+        max-height: 80px;
+    }
+    .navbar-vertical .navbar-collapse:before{
+        display: none !important;
+    }
+}
